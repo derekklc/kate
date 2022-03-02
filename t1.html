@@ -1,0 +1,1043 @@
+<style>
+   .kb_paragraph_1 {
+   display: flex;
+   justify-content: flex-start;
+   margin: 20px 0;
+   }
+   .kb_paragraph_1 > img{
+   width: 50vw;
+   height: unset;
+   min-width: 400px;
+   }
+   </style>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <style type="text/css">
+   /*
+   Template: No Video product
+   Description:
+   Version: 1.2
+   */
+   /*
+   Template: Has Video product
+   Description:
+   Version: 1.2
+   */
+   /* user colors */
+   #wpl_store_header .hotline {
+   color: #FFFFFF;
+   background-color: #FFA500;
+   display: block;
+   float: right;
+   }
+   #wpl_wrapper .wpl_description h2 {
+   color: #000000;
+   }
+   #wpl_wrapper h3.bar {
+   color: #FFFFFF;
+   background-color: #555555;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#555555), to(#000000));
+   background-image: -webkit-linear-gradient(top, #555555, #000000);
+   background-image: -moz-linear-gradient(top, #555555, #000000);
+   background-image: -ms-linear-gradient(top, #555555, #000000);
+   background-image: -o-linear-gradient(top, #555555, #000000);
+   background-image: linear-gradient(to bottom, #555555, #000000);
+   }
+   /* layout */
+   #wpl_wrapper {
+   width: 90%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   font-size: 14px;
+   font-family:Arial,Helvetica,sans-serif;
+   }
+   #wpl_wrapper h2 {
+   font-size: 24px;
+   line-height: 30px;
+   }
+   #wpl_wrapper h3.bar {
+   margin-top: 30px;
+   margin-bottom: 20px;
+   padding-left: 10px;
+   height: 30px;
+   line-height: 30px;
+   font-size: 16px;
+   font-family: Helvetica, Arial, sans-serif;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   }
+   #wpl_store_header {
+   width:100%;
+   overflow: hidden;
+   }
+   #wpl_store_header .logo {
+   float: left;
+   }
+   #wpl_store_header .hotline {
+   height: 40px;
+   font-size: 16px;
+   line-height: 40px;
+   font-weight: bold;
+   padding-right: 20px;
+   padding-left: 20px;
+   margin-top: 7px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+   text-shadow: 2px 2px 4px #713803;
+   filter: dropshadow(color=#713803, offx=0, offy=1);
+   }
+   #wpl_wrapper .clearfix {
+   clear:both;
+   }
+   #wpl_list_images a {
+   border: 1px solid #ccc;
+   display: block;
+   float: left;
+   height: 75px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 12px;
+   width: 75px;
+   }
+   #wpl_wrapper .alignleft {
+   float: left;
+   }
+   #wpl_wrapper .alignright {
+   float: right;
+   }
+   #wpl_wrapper .section p {
+   padding-left: 10px;
+   padding-right: 10px;
+   /* fix for firefox: */
+   line-height: 1.2em;
+   margin: 1em 0;
+   }
+   #wpl_wrapper .section big {
+   font-size: 18px;
+   font-weight: bold;
+   }
+   .primary_image, .wpl_product_image {
+   width: 100%;
+   }
+   #gallery a {
+   text-decoration: none;
+   }
+   /* these only apply in preview to override default styles from wp-admin */
+   body.wp-admin #wpl_wrapper ul {
+   list-style: disc inside none;
+   }
+   body.wp-admin #wpl_wrapper ul li {
+   padding-left: 2em;
+   }
+   /** Media queries **/
+   @media (min-width: 320px) {
+   #wpl_wrapper {
+   width: 95%;
+   }
+   #wpl_store_header .hotline {
+   float: left;
+   }
+   #gallery {
+   width: 100%;
+   }
+   #wpl_list_images {
+   display: none;
+   }
+   }
+   @media (min-width: 481px) {
+   #wpl_wrapper {
+   width: 95%;
+   }
+   #wpl_store_header .hotline {
+   float: right;
+   display: inline-block;
+   }
+   #gallery {
+   display: block;
+   width: 48%;
+   float: left;
+   }
+   #description {
+   width: 48%;
+   float: right;
+   }
+   #gallery #wpl_main_image {
+   max-width: 220px;
+   max-height: 225px;
+   }
+   #wpl_list_images {
+   display: block;
+   }
+   #wpl_list_images a {
+   width: 80px;
+   height: 80px;
+   }
+   #wpl_list_images a img.wpl_thumb {
+   width: 100%;
+   }
+   }
+   @media (min-width: 641px) {
+   #wpl_wrapper {
+   width: 95%;
+   }
+   #wpl_store_header .hotline {
+   float: right;
+   }
+   #gallery {
+   display: block;
+   width: 45%;
+   float: left;
+   }
+   #description {
+   width: 48%;
+   float: right;
+   }
+   #gallery #wpl_main_image {
+   width: 100%;
+   height: 100%;
+   max-height: 370px;
+   max-width: 370px;
+   }
+   #wpl_list_images {
+   display: block;
+   }
+   #gallery #wpl_list_images a {
+   width: 80px;
+   height: 80px;
+   }
+   #wpl_list_images a img.wpl_thumb {
+   width: 80px;
+   }
+   }
+   /* Style for the new product_gallery shortcode */
+   .wplister-gallery{position:relative;width:95%;margin:2em auto auto}
+   .wplister-gallery img{margin:0 auto}
+   .wplister-gallery{width:48%;display:inline-block;padding-top:480px;text-align:center;}
+   .wplister-gallery .gallery-thumbnail{width:100%;position:absolute;left:0;top:0;transition:all .5s;text-align:center;max-height:570px;transition:all .5s;z-index:22;height:445px;background:#fff}
+   .wplister-gallery .gallery-thumbnail img{max-width:100%;max-height:443px;}
+   .wplister-gallery input[name='thumb_switch']{display:none}
+   .wplister-gallery label{margin-right:11px;display:inline-block;cursor:pointer;transition:all .5s;opacity:1;margin-bottom:1em}
+   .wplister-gallery span{display:table-cell;width:90px;height:90px;text-align:center;border:1px solid #cdcdce;vertical-align:middle;}
+   .wplister-gallery label img{max-width:100%;width:auto;padding:1px;max-height:88px}
+   .wplister-gallery input[name='thumb_switch']:checked+label{opacity:1}
+   .wplister-gallery input ~ .gallery-thumbnail{margin-bottom:0}
+   .wplister-gallery input[name='thumb_switch'] ~ .gallery-thumbnail{opacity:0;display:none}
+   .wplister-gallery input[name='thumb_switch']:checked + label + .gallery-thumbnail{opacity:1;display:block;transform:scale(1)}
+   .wplister-gallery #id1 + label + .gallery-thumbnail{opacity:1;display:block;transform:scale(1)}
+   @media (max-width: 1210px) and (min-width: 1140px) {
+   .wplister-gallery .gallery-thumbnail,.wplister-gallery .gallery-thumbnail img{max-height:443px}
+   }
+   @media(min-width:992px) and (max-width:1140px) {
+   .wplister-gallery #id1 + label + .gallery-thumbnail:hover,.wplister-gallery input[name='thumb_switch']:checked+label+ .gallery-thumbnail:hover{transform:scale(1.1);border:1px solid #0084c9}
+   }
+   @media (max-width: 992px) {
+   .wplister-gallery .gallery-thumbnail,.wplister-gallery .gallery-thumbnail img{max-height:443px}
+   }
+   @media (max-width: 939px) {
+   .wplister-gallery .gallery-thumbnail,.wplister-gallery .gallery-thumbnail img{max-height:443px}
+   }
+   @media(width: 768px) {
+   .wplister-gallery .gallery-thumbnail,.wplister-gallery .gallery-thumbnail img{max-height:370px}
+   .wplister-gallery label{margin-right:14px}
+   .wplister-gallery span{width:81px;height:81px}
+   .wplister-gallery label img{max-height:79px}
+   }
+   @media(max-width: 767px) {
+   .wplister-gallery{width:100%;position:relative}
+   .wplister-gallery .gallery-thumbnail,.wplister-gallery .gallery-thumbnail img{max-height:300px}
+   .wplister-gallery label{margin-right:12px}
+   .wplister-gallery span{width:66px;height:66px}
+   .wplister-gallery label img{max-height:64px}
+   }
+   </style>
+   <div id="wpl_wrapper">
+   <div class="main_section">
+   <h3 class="bar">Keychron K3v2 Low-Profile Bluetooth Keyboard Wireless/Wired Gateron 84 Key Ultra</h3>
+   <h3>
+   <div class="wplister-gallery">
+   <input type="radio" name="thumb_switch" id="id1" checked="checked" value="https://mastex.com.au/wp-content/uploads/2021/08/K3A.jpg">
+   <label for="id1">
+   <span><img src="https://mastex.com.au/wp-content/uploads/2021/08/K3A.jpg" width="100"></span>
+   </label>
+   <div class="gallery-thumbnail"><img src="https://mastex.com.au/wp-content/uploads/2021/08/K3A.jpg"></div>
+   <input type="radio" name="thumb_switch" id="id2" value="https://mastex.com.au/wp-content/uploads/2021/03/K3-11-scaled.jpeg">
+   <label for="id2">
+   <span><img src="https://mastex.com.au/wp-content/uploads/2021/03/K3-11-scaled.jpeg" width="100"></span>
+   </label>
+   <div class="gallery-thumbnail"><img src="https://mastex.com.au/wp-content/uploads/2021/03/K3-11-scaled.jpeg"></div>
+   <input type="radio" name="thumb_switch" id="id3" value="https://mastex.com.au/wp-content/uploads/2021/08/K3A-eDMs-02.jpg">
+   <label for="id3">
+   <span><img src="https://mastex.com.au/wp-content/uploads/2021/08/K3A-eDMs-02.jpg" width="100"></span>
+   </label>
+   <div class="gallery-thumbnail"><img src="https://mastex.com.au/wp-content/uploads/2021/08/K3A-eDMs-02.jpg"></div>
+   <input type="radio" name="thumb_switch" id="id4" value="https://mastex.com.au/wp-content/uploads/2021/03/K3-07.jpeg">
+   <label for="id4">
+   <span><img src="https://mastex.com.au/wp-content/uploads/2021/03/K3-07.jpeg" width="100"></span>
+   </label>
+   <div class="gallery-thumbnail"><img src="https://mastex.com.au/wp-content/uploads/2021/03/K3-07.jpeg"></div>
+   <input type="radio" name="thumb_switch" id="id5" value="https://mastex.com.au/wp-content/uploads/2021/07/K3V2-eDMs-04.jpg">
+   <label for="id5">
+   <span><img src="https://mastex.com.au/wp-content/uploads/2021/07/K3V2-eDMs-04.jpg" width="100"></span>
+   </label>
+   <div class="gallery-thumbnail"><img src="https://mastex.com.au/wp-content/uploads/2021/07/K3V2-eDMs-04.jpg"></div>
+   <input type="radio" name="thumb_switch" id="id6" value="https://mastex.com.au/wp-content/uploads/2021/07/K3V2-eDMs-05.jpg">
+   <label for="id6">
+   <span><img src="https://mastex.com.au/wp-content/uploads/2021/07/K3V2-eDMs-05.jpg" width="100"></span>
+   </label>
+   <div class="gallery-thumbnail"><img src="https://mastex.com.au/wp-content/uploads/2021/07/K3V2-eDMs-05.jpg"></div>
+   <input type="radio" name="thumb_switch" id="id7" value="https://mastex.com.au/wp-content/uploads/2021/08/K3A.jpeg">
+   <label for="id7">
+   <span><img src="https://mastex.com.au/wp-content/uploads/2021/08/K3A.jpeg" width="100"></span>
+   </label>
+   <div class="gallery-thumbnail"><img src="https://mastex.com.au/wp-content/uploads/2021/08/K3A.jpeg"></div>
+   <input type="radio" name="thumb_switch" id="id8" value="https://mastex.com.au/wp-content/uploads/2021/07/K3V2-eDMs-07.jpg">
+   <label for="id8">
+   <span><img src="https://mastex.com.au/wp-content/uploads/2021/07/K3V2-eDMs-07.jpg" width="100"></span>
+   </label>
+   <div class="gallery-thumbnail"><img src="https://mastex.com.au/wp-content/uploads/2021/07/K3V2-eDMs-07.jpg"></div>
+   <input type="radio" name="thumb_switch" id="id9" value="https://mastex.com.au/wp-content/uploads/2021/03/K3-09-scaled.jpeg">
+   <label for="id9">
+   <span><img src="https://mastex.com.au/wp-content/uploads/2021/03/K3-09-scaled.jpeg" width="100"></span></label>
+   </div>
+   <table style="border: initial none initial;" border="0" cellspacing="0" cellpadding="0">
+   <tbody>
+   <tr>
+   <td style="width: 450.8pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="601">
+   <p style="margin-bottom: 0cm; line-height: normal;">
+   <b>SPECIFICATION</b><br>
+   <!-- [if !supportLineBreakNewLine]--><br>
+   <!--[endif]-->
+   </p>
+   <p style="margin-bottom: 0cm; line-height: normal;">Number of Keys: 84 keys<br>
+   Layout: ANSI<br>
+   Version: Gateron<br>
+   Switches: Low profile Gateron mechanical<br>
+   Number of Multimedia Keys: 12<br>
+   Frame Material: ABS+Aluminum frame<br>
+   Keycap Material: ABS
+   </p>
+   <p style="margin-bottom: 0cm; line-height: normal;"></p>
+   </td>
+   </tr>
+   <tr>
+   <td style="width: 450.8pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="601">
+   <p style="margin-bottom: 0cm; line-height: normal;"><b><br></b></p>
+   <p style="margin-bottom: 0cm; line-height: normal;">
+   <b>
+   CONNECTIVITY AND POWER<br>
+   <!-- [if !supportLineBreakNewLine]--><br>
+   <!--[endif]-->
+   </b>
+   </p>
+   <p style="margin-bottom: 0cm; line-height: normal;">Backlit Types: 18<br>
+   Backlit: White backlit<br>
+   System: Windows/Android/Mac/iOS<br>
+   Battery: 1550mAh Rechargeable li-polymer battery<br>
+   BT Working Time (Single LED): Up to 34 hours (Lab test result may vary by actual use)<br>
+   Connection: Bluetooth and Type-C cable<br>
+   Bluetooth version: 5.1<br>
+   Bluetooth Device Name: Keychron K3<br>
+   Compatible System: macOS/Windows
+   </p>
+   <p style="margin-bottom: 0cm; line-height: normal;"></p>
+   </td>
+   </tr>
+   <tr>
+   <td style="width: 450.8pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="601">
+   <p style="margin-bottom: 0cm; line-height: normal;"><b><br></b></p>
+   <p style="margin-bottom: 0cm; line-height: normal;"><b>PHYSICAL UNIT<br>
+   </b>Dimension: 306 x 116mm<br>
+   Height incl. keycap (front) 22mm<br>
+   Height incl. keycap (rear) 17mm<br>
+   Weight: About 396g / 0.87lbs<br>
+   Operating Environment: -10 to 50?
+   </p>
+   <p style="margin-bottom: 0cm; line-height: normal;"></p>
+   </td>
+   </tr>
+   <tr>
+   <td style="width: 450.8pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="601">
+   <p style="margin-bottom: 0cm; line-height: normal;"><b><br></b></p>
+   <p style="margin-bottom: 0cm; line-height: normal;"><b>PACKAGE CONTENT<br>
+   </b><br>
+   1 x Keyboard<br>
+   1 x USB-A to USB Type-C Cable<br>
+   1 x Keycap Puller<br>
+   1 x Dust Cover<br>
+   1 x User Manual<br>
+   Learn how to alter the low profile switch on Keychron K3
+   </p>
+   </td>
+   </tr>
+   </tbody>
+   </table>
+   <p>Product Description</p>
+   </h3>
+   <h3 data-pf-type="Heading">The K3 has included keycaps for both Windows and Mac operating systems.</h3>
+   <h3 data-pf-type="Heading">AN ULTRA-SLIM WIRELESS<br>
+   MECHANICAL KEYBOARD
+   </h3>
+   <p class="kb_paragraph_1"><img sizes="(min-width: 992px) 1200px, (min-width: 768px) and (max-width: 991px) 800px, 400px" srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-481ce134--KeychronK3ultraslimcompactHotswappablewirelessmechanicalkeyboardMacWindowsiOSAndroidlowprofileKeychronOpticalandGateronmechanicalswitchredbluebrownwhiteblackorange.png?v=1602585488 2000w, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-481ce134--KeychronK3ultraslimcompactHotswappablewirelessmechanicalkeyboardMacWindowsiOSAndroidlowprofileKeychronOpticalandGateronmechanicalswitchredbluebrownwhiteblackorange_800x500.png?v=1602585488&amp;resized 800w, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-481ce134--KeychronK3ultraslimcompactHotswappablewirelessmechanicalkeyboardMacWindowsiOSAndroidlowprofileKeychronOpticalandGateronmechanicalswitchredbluebrownwhiteblackorange_400x250.png?v=1602585488&amp;resized 400w" alt="Keychron K8 tenkeyless wireless mechanical keyboard for Mac Windows iOS with Hot swappable Gateron and Keychron Optical switch red blue brown" data-pf-type="Image2" class="kb_img_1"></p>
+   <p data-pf-type="Paragraph">Incorporating the world?s first hot-swappable low profile Optical switches to customize per-key typing experience with ease, together with all signature Keychron features.</p>
+   <h2 data-pf-type="Heading">FEATURES</h2>
+   <p class="kb_paragraph_1"><img loading="lazy" src="https://mastex.com.au/wp-content/uploads/2022/02/double-shot-keycap-lightgrey.jpg" alt="" width="1000" height="430"></p>
+   <h3 data-pf-type="Heading">WIRELESS AND WIRED</h3>
+   <p data-pf-type="Paragraph">Connects via Bluetooth and switch among them easily. Featuring Bluetooth 5.1 chipset, the K3 offers flawless connectivity whether you?re working at home or the office while connecting with your smartphone, laptop and iPad.</p>
+   <picture data-pf-type="Image" class="kb_paragraph_1">
+   <img title="" src="https://mastex.com.au/wp-content/uploads/2022/02/oem_Unicorn.jpg" alt="Keychron K8 tenkeyless wireless mechanical keyboard for Mac Windows iOS with Hot-swappable Gateron and Keychron Optical switch red blue brown">
+   </picture>
+   <p data-pf-type="Paragraph">Connects with up to 3 devices</p>
+   <p data-pf-type="Paragraph">Broadcom Bluetooth 5.1</p>
+   <p data-pf-type="Paragraph">Type-C connection</p>
+   <h3 data-pf-type="Heading">ULTRA-SLIM</h3>
+   <p data-pf-type="Paragraph">The redesigned low profile switch is 40% slimmer than conventional switches. Together with the streamlined aluminum body makes the K3 one of the thinnest and lightweight wireless mechanical keyboards in the world.</p>
+   <p class="kb_paragraph_1"><img sizes="(min-width: 992px) 1200px, (min-width: 768px) and (max-width: 991px) 800px, 400px" srcset="https://mastex.com.au/wp-content/uploads/2022/02/double-shot-keycap-lightgrey.jpg 2000w, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-63d006a4--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownultraslim-copy_800x427.jpeg?v=1602594569&amp;resized 800w, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-63d006a4--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownultraslim-copy_400x214.jpeg?v=1602594569&amp;resized 400w" alt="Keychron K8 tenkeyless wireless mechanical keyboard for Mac Windows iOS with Hot-swappable Gateron and Keychron Optical switch red blue brown" data-pf-type="Image2"></p>
+   <h3 data-pf-type="Heading">SUITABLE FOR ALL DEVICES</h3>
+   <picture data-pf-type="Image" class="kb_paragraph_1">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-6664eb64--KeychronK3keyboardlayout1000_800x3000.png?v=1602660593" media="(min-width: 1200px)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-6664eb64--KeychronK3keyboardlayout1000_800x3000.png?v=1602660593" media="(min-width: 992px) and (max-width: 1199px)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-6664eb64--KeychronK3keyboardlayout1000_800x3000.png?v=1602660593&amp;resized" media="(min-width: 768px) and (max-width: 991px)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-6664eb64--KeychronK3keyboardlayout1000_400x191.png?v=1602660593&amp;resized 1x, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-6664eb64--KeychronK3keyboardlayout1000_850x850.png?v=1602660593&amp;resized 2x" media="(max-width: 767px) and (orientation: portrait)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-6664eb64--KeychronK3keyboardlayout1000_400x191.png?v=1602660593&amp;resized 1x, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-6664eb64--KeychronK3keyboardlayout1000.png?v=1602660593 2x" media="(max-width: 767px) and (orientation: landscape)">
+   <img src="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-6664eb64--KeychronK3keyboardlayout1000.png?v=1602660593" alt="Keychron K8 tenkeyless wireless mechanical keyboard for Mac Windows iOS layout">
+   </picture>
+   <p data-pf-type="Paragraph">Compatible for both macOS and Windows. Keychron is one of only a few in the market that comes with a Mac multimedia keys layout for Mac enthusiasts. For Linux users, we also have a dedicated user group to help with the experience.</p>
+   <h3 data-pf-type="Heading" class="kb_paragraph_1"><img src="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-d698a4c8--k3version2adjustablefeet-Edited?v=1622451026" alt="" width="1000" height="526"></h3>
+   <p>Two level adjustable rubber feet makes the new K3 more comfortable to type on.</p>
+   <h3 data-pf-type="Heading">Mechanical Switch</h3>
+   <p class="kb_paragraph_1"><img loading="lazy" src="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-3d7405f5--KeychronK3LowProfileGateronSwitchspecs.jpeg?v=1626750223" srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-3d7405f5--KeychronK3LowProfileGateronSwitchspecs.jpeg?v=1626750223 2000w, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-3d7405f5--KeychronK3LowProfileGateronSwitchspecs_500x.jpeg?v=1626750223 2000w" alt="Keychron K3 ultra_slim Hot_swappable wireless mechanical keyboard Mac Windows iOS Android Keychron Gateron low profile mechanical red blue brownswitch" width="538" height="324" data-pf-type="Image"></p>
+   <p data-pf-type="Paragraph">Durable low profile Gateron Mechanical switch with a 50 million keystroke lifespan to provide an unrivaled tactile responsiveness</p>
+   <h3 data-pf-type="Heading">ALTERNATIVE KEYCAPS</h3>
+   <picture data-pf-type="Image" class="kb_paragraph_1">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-f109ef5d--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownkeycapcompareRoccatVulcan120AimoCherrylowprofilekeycap_800x3000.jpeg?v=1602593873" media="(min-width: 1200px)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-f109ef5d--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownkeycapcompareRoccatVulcan120AimoCherrylowprofilekeycap.jpeg?v=1602593873" media="(min-width: 992px) and (max-width: 1199px)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-f109ef5d--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownkeycapcompareRoccatVulcan120AimoCherrylowprofilekeycap.jpeg?v=1602593873" media="(min-width: 768px) and (max-width: 991px)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-f109ef5d--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownkeycapcompareRoccatVulcan120AimoCherrylowprofilekeycap_400x199.jpeg?v=1602593873&amp;resized 1x, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-f109ef5d--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownkeycapcompareRoccatVulcan120AimoCherrylowprofilekeycap_850x850.jpeg?v=1602593873&amp;resized 2x" media="(max-width: 767px) and (orientation: portrait)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-f109ef5d--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownkeycapcompareRoccatVulcan120AimoCherrylowprofilekeycap_400x199.jpeg?v=1602593873&amp;resized 1x, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-f109ef5d--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownkeycapcompareRoccatVulcan120AimoCherrylowprofilekeycap.jpeg?v=1602593873 2x" media="(max-width: 767px) and (orientation: landscape)">
+   <img title="" src="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-f109ef5d--KeychronK3ultraslimwirelessmechanicalkeyboardmacwindowsiOSandroidKeychronOpticalGateronmechanicalswitchredbluebrownkeycapcompareRoccatVulcan120AimoCherrylowprofilekeycap.jpeg?v=1602593873" alt="Keychron K8 tenkeyless wireless mechanical keyboard for Mac Windows iOS with Hot swappable Gateron and Keychron Optical switch red blue brown">
+   </picture>
+   <p data-pf-type="Paragraph">We?ve spent over a year developing and implementing a MX-styled stem on both the low profile switches for the K3 as well as stabilizers on the big keys like the space bar, left Shift, backspace and Enter key.</p>
+   <picture data-pf-type="Image" class="kb_paragraph_1">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-d006a42c--KeychronK3ultraslimHotswappablewirelessBluetoothmechanicalkeyboardMacWindowsiOSAndroidKeychronlowprofileOpticalGateronlowprofilemechanicalswitchredbluebrownwhiteblackorangedesktoplayout_800x3000.jpg?v=1602595361" media="(min-width: 1200px)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-d006a42c--KeychronK3ultraslimHotswappablewirelessBluetoothmechanicalkeyboardMacWindowsiOSAndroidKeychronlowprofileOpticalGateronlowprofilemechanicalswitchredbluebrownwhiteblackorangedesktoplayout.jpg?v=1602595361" media="(min-width: 992px) and (max-width: 1199px)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-d006a42c--KeychronK3ultraslimHotswappablewirelessBluetoothmechanicalkeyboardMacWindowsiOSAndroidKeychronlowprofileOpticalGateronlowprofilemechanicalswitchredbluebrownwhiteblackorangedesktoplayout_800x600.jpg?v=1602595361&amp;resized" media="(min-width: 768px) and (max-width: 991px)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-d006a42c--KeychronK3ultraslimHotswappablewirelessBluetoothmechanicalkeyboardMacWindowsiOSAndroidKeychronlowprofileOpticalGateronlowprofilemechanicalswitchredbluebrownwhiteblackorangedesktoplayout_400x300.jpg?v=1602595361&amp;resized 1x, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-d006a42c--KeychronK3ultraslimHotswappablewirelessBluetoothmechanicalkeyboardMacWindowsiOSAndroidKeychronlowprofileOpticalGateronlowprofilemechanicalswitchredbluebrownwhiteblackorangedesktoplayout_850x850.jpg?v=1602595361&amp;resized 2x" media="(max-width: 767px) and (orientation: portrait)">
+   <source srcset="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-d006a42c--KeychronK3ultraslimHotswappablewirelessBluetoothmechanicalkeyboardMacWindowsiOSAndroidKeychronlowprofileOpticalGateronlowprofilemechanicalswitchredbluebrownwhiteblackorangedesktoplayout_400x300.jpg?v=1602595361&amp;resized 1x, https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-d006a42c--KeychronK3ultraslimHotswappablewirelessBluetoothmechanicalkeyboardMacWindowsiOSAndroidKeychronlowprofileOpticalGateronlowprofilemechanicalswitchredbluebrownwhiteblackorangedesktoplayout.jpg?v=1602595361 2x" media="(max-width: 767px) and (orientation: landscape)">
+   <img src="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-d006a42c--KeychronK3ultraslimHotswappablewirelessBluetoothmechanicalkeyboardMacWindowsiOSAndroidKeychronlowprofileOpticalGateronlowprofilemechanicalswitchredbluebrownwhiteblackorangedesktoplayout.jpg?v=1602595361" alt="Keychron K8 tenkeyless wireless mechanical keyboard for Mac Windows iOS with Hot swappable Gateron and Keychron Optical switch red blue brown">
+   </picture>
+   <h3 data-pf-type="Heading">75% LAYOUT</h3>
+   <p data-pf-type="Paragraph">Crafted for productivity, the K3?s 75% layout is a compact version of tenkeyless layout. It allows users access to all the essential multimedia and function keys, but with a smaller footprint.</p>
+   </div>
+   </div>
+   <font rwr="1" size="4" style="font-family:Arial">
+   <h3 class="bar" style="color: rgb(255, 255, 255); background-color: rgb(85, 85, 85); background-image: linear-gradient(rgb(85, 85, 85), rgb(0, 0, 0)); margin-top: 30px; margin-bottom: 20px; padding-left: 10px; height: 30px; line-height: 30px; font-size: 16px; font-family: Helvetica, Arial, sans-serif; border-radius: 5px;">You May Like This</h3>
+   <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">
+   <a href="https://www.ebay.com.au/itm/174604637245" title="Fantech PS5 Headset 3.5mm with Noise-Cancel Gaming Headphone for PC Switch Xbox" target="_top" style="float: left; display: block; width: 120px; height: 135px; margin-left: 0px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); padding: 9px; color: rgb(0, 0, 153); text-decoration-line: none; border-radius: 5px; font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: center;">
+   <div class="thumb"><img src="https://i.ebayimg.com/images/g/CRYAAOSwGzpgB5R4/s-l1600.jpg" alt="Fantech PS5 Headset 3.5mm with Noise-Cancel Gaming Headphone for PC Switch Xbox" style="border: none; max-height: 90px; max-width: 120px; width: auto;"></div>
+   <div class="title" style="text-align: left; font-size: 12px; font-family: sans-serif; line-height: 15px; height: 45px; overflow: hidden; margin: 3px 0px;">Fantech PS5 Headset 3.5mm with Noise-Cancel Gaming Headphone for PC Switch Xbox</div>
+   </a>
+   <a href="https://www.ebay.com.au/itm/174602020554" title="DarkFlash 550W Computer Power Supply 80 Plus Bronze Flat Cable ATX Desktop PSU" target="_top" style="float: left; display: block; width: 120px; height: 135px; margin-left: 0px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); padding: 9px; color: rgb(0, 0, 153); text-decoration-line: none; border-radius: 5px; font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: center;">
+   <div class="thumb"><img src="https://i.ebayimg.com/images/g/LX8AAOSwzuNgBjDP/s-l1600.jpg" alt="DarkFlash 550W Computer Power Supply 80 Plus Bronze Flat Cable ATX Desktop PSU" style="border: none; max-height: 90px; max-width: 120px; width: auto;"></div>
+   <div class="title" style="text-align: left; font-size: 12px; font-family: sans-serif; line-height: 15px; height: 45px; overflow: hidden; margin: 3px 0px;">DarkFlash 550W Computer Power Supply 80 Plus Bronze Flat Cable ATX Desktop PSU</div>
+   </a>
+   <a href="https://www.ebay.com.au/itm/174602021178" title="DarkFlash Gaming PC Case Tempered Glass ARGB Strip Micro-ATX Computer Tower Case" target="_top" style="float: left; display: block; width: 120px; height: 135px; margin-left: 0px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); padding: 9px; color: rgb(0, 0, 153); text-decoration-line: none; border-radius: 5px; font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: center;">
+   <div class="thumb"><img src="https://i.ebayimg.com/images/g/vcAAAOSwKB1gBjU1/s-l1600.jpg" alt="DarkFlash Gaming PC Case Tempered Glass ARGB Strip Micro-ATX Computer Tower Case" style="border: none; max-height: 90px; max-width: 120px; width: auto;"></div>
+   <div class="title" style="text-align: left; font-size: 12px; font-family: sans-serif; line-height: 15px; height: 45px; overflow: hidden; margin: 3px 0px;">DarkFlash Gaming PC Case Tempered Glass ARGB Strip Micro-ATX Computer Tower Case</div>
+   </a>
+   <a href="https://www.ebay.com.au/itm/174523786106" title="PC Desktop Gaming Mechanical Keyboard/Mouse/Mouse Pad RGB Backlit Computer Combo" target="_top" style="float: left; display: block; width: 120px; height: 135px; margin-left: 0px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); padding: 9px; color: rgb(0, 0, 153); text-decoration-line: none; border-radius: 5px; font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: center;">
+   <div class="thumb"><img src="https://i.ebayimg.com/images/g/Wg0AAOSwsUJftg0N/s-l1600.jpg" alt="PC Desktop Gaming Mechanical Keyboard/Mouse/Mouse Pad RGB Backlit Computer Combo" style="border: none; max-height: 90px; max-width: 120px; width: auto;"></div>
+   <div class="title" style="text-align: left; font-size: 12px; font-family: sans-serif; line-height: 15px; height: 45px; overflow: hidden; margin: 3px 0px;">PC Desktop Gaming Mechanical Keyboard/Mouse/Mouse Pad RGB Backlit Computer Combo</div>
+   </a>
+   <a href="https://www.ebay.com.au/itm/174520975488" title="PC Gaming Headset USB Wired Mic 7.1 Surround Sound RGB Light with stand bundle" target="_top" style="float: left; display: block; width: 120px; height: 135px; margin-left: 0px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); padding: 9px; color: rgb(0, 0, 153); text-decoration-line: none; border-radius: 5px; font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: center;">
+   <div class="thumb"><img src="https://i.ebayimg.com/images/g/2JwAAOSwZ-9fsio2/s-l1600.jpg" alt="PC Gaming Headset USB Wired Mic 7.1 Surround Sound RGB Light with stand bundle" style="border: none; max-height: 90px; max-width: 120px; width: auto;"></div>
+   <div class="title" style="text-align: left; font-size: 12px; font-family: sans-serif; line-height: 15px; height: 45px; overflow: hidden; margin: 3px 0px;">PC Gaming Headset USB Wired Mic 7.1 Surround Sound RGB Light with stand bundle</div>
+   </a>
+   <a href="https://www.ebay.com.au/itm/174672105355" title="DarkFlash ARGB 240mm Liquid Cooler CPU Water Cooling Intel 2066/1151 AMD AM4 AM3" target="_top" style="float: left; display: block; width: 120px; height: 135px; margin-left: 0px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); padding: 9px; color: rgb(0, 0, 153); text-decoration-line: none; border-radius: 5px; font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: center;">
+   <div class="thumb"><img src="https://i.ebayimg.com/images/g/C7IAAOSw0QlgRggI/s-l1600.jpg" alt="DarkFlash ARGB 240mm Liquid Cooler CPU Water Cooling Intel 2066/1151 AMD AM4 AM3" style="border: none; max-height: 90px; max-width: 120px; width: auto;"></div>
+   <div class="title" style="text-align: left; font-size: 12px; font-family: sans-serif; line-height: 15px; height: 45px; overflow: hidden; margin: 3px 0px;">DarkFlash ARGB 240mm Liquid Cooler CPU Water Cooling Intel 2066/1151 AMD AM4 AM3</div>
+   </a>
+   <a href="https://www.ebay.com.au/itm/175007428515" title="Fantech Gaming / Office Chair PU Leather 4D Armrest Recline Ergonomic (GC-283)" target="_top" style="float: left; display: block; width: 120px; height: 135px; margin-left: 0px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); padding: 9px; color: rgb(0, 0, 153); text-decoration-line: none; border-radius: 5px; font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: center;">
+   <div class="thumb"><img src="https://i.ebayimg.com/images/g/aAIAAOSw2EBhg4fl/s-l1600.jpg" alt="Fantech Gaming / Office Chair PU Leather 4D Armrest Recline Ergonomic (GC-283)" style="border: none; max-height: 90px; max-width: 120px; width: auto;"></div>
+   <div class="title" style="text-align: left; font-size: 12px; font-family: sans-serif; line-height: 15px; height: 45px; overflow: hidden; margin: 3px 0px;"> Fantech Gaming / Office Chair PU Leather 4D Armrest Recline Ergonomic (GC-283)</div>
+   </a>
+   <a href="https://www.ebay.com.au/itm/175048048992" title="Fantech Home Office Chair Computer Breathable Mesh Ergonomic Computer Chair" target="_top" style="float: left; display: block; width: 120px; height: 135px; margin-left: 0px; margin-right: 10px; border: 1px solid rgb(204, 204, 204); padding: 9px; color: rgb(0, 0, 153); text-decoration-line: none; border-radius: 5px; font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: center;">
+   <div class="thumb"><img src="https://i.ebayimg.com/images/g/EJsAAOSwLi1hqatK/s-l1600.jpg" alt="Fantech Home Office Chair Computer Breathable Mesh Ergonomic Computer Chair" style="border: none; max-height: 90px; max-width: 120px; width: auto;"></div>
+   <div class="title" style="text-align: left; font-size: 12px; font-family: sans-serif; line-height: 15px; height: 45px; overflow: hidden; margin: 3px 0px;"> Fantech Home Office Chair Computer Breathable Mesh Ergonomic Computer Chair</div>
+   </a>
+   </div>
+   <br><br><br><br>
+   <p><span style="font-size: 14pt;">&nbsp;</span></p>
+   <p><br></p>
+   <table class="MsoTableGrid" border="0" cellspacing="0" cellpadding="0" width="699" style="width:900pt;background:#404040;mso-background-themecolor:text1;
+   mso-background-themetint:191;border-collapse:collapse;border:none;mso-yfti-tbllook:
+   1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:none;mso-border-insidev:
+   none">
+   <tbody>
+   <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:32.85pt">
+   <td width="350" valign="top" style="width:262.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+   height:32.85pt">
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal;mso-outline-level:
+   3"><b style="font-size: 14pt;"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt"><br></span></b></p>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal;mso-outline-level:
+   3"><b style="font-size: 14pt;"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt">Sales</span></b></p>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal;mso-outline-level:
+   3">
+   <b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt">_________________________________________</span></b>
+   <b>
+   <span style="font-size:22.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+   &quot;Times New Roman&quot;;color:white;mso-themecolor:background1;letter-spacing:-.75pt">
+   <o:p></o:p>
+   </span>
+   </b>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l1 level1 lfo1;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1">
+   Please
+   do not bid or buy if you do not agree with our Terms of Sales, Payment
+   Options and Shipping Policies listed on this page.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l1 level1 lfo1;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1">
+   Entering
+   a bid or purchase a "Buy It Now" item signifies your agreement to
+   these terms.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l1 level1 lfo1;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1">
+   Please
+   contact us if you have any questions or problems before leaving a neutral or
+   negative feedback. We pride ourselves in our customer services. We also
+   believe that good communication can resolve most if not all problems.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l1 level1 lfo1;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1">
+   Shipment
+   will only be made after receiving CLEARED FULL payment. Items are despatched
+   Monday to Friday (excluding public holidays).
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l1 level1 lfo1;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1">
+   We
+   typically reply to emails within 24 hours (EXCLUDING weekends and public
+   holidays)
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l1 level1 lfo1;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1">
+   All
+   items come with 6 months limited warranty unless stated otherwise in the item
+   description. If your items arrived DOA (Dead On Arrival) or is defective (NOT
+   due to misuse), you must contact us within 7 days.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal">
+   <span style="color:white;mso-themecolor:background1">
+   <o:p>&nbsp;</o:p>
+   </span>
+   </p>
+   </td>
+   <td width="350" valign="top" style="width:262.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+   height:32.85pt">
+   <h3 style="margin-top:0cm;mso-outline-level:3"><span style="font-size:12.0pt;
+   font-family:&quot;Arial&quot;,sans-serif;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt"><br></span></h3>
+   <h3 style="margin-top:0cm;mso-outline-level:3">
+   <span style="font-size:12.0pt;
+   font-family:&quot;Arial&quot;,sans-serif;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt">
+   Shipping
+   <o:p></o:p>
+   </span>
+   </h3>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal;mso-outline-level:
+   3">
+   <b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt">_________________________________________</span></b>
+   <b>
+   <span style="font-size:22.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+   &quot;Times New Roman&quot;;color:white;mso-themecolor:background1;letter-spacing:-.75pt">
+   <o:p></o:p>
+   </span>
+   </b>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   Item will be dispatched within 1-2
+   business days after receipt of full payment.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   You should get your items within 2-7
+   business days, and from our past experiences, it may go up to 12 business
+   days for far and remote areas. In order to ensure quick and speedy delivery,
+   all our items will be shipped from our warehouse in Melbourne (unless
+   otherwise stated).
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   This delivery time frame is used as a
+   general guideline only. Please note that delivery times may vary,
+   particularly during peak periods. And sometimes take a little longer, due to
+   weekends and public holidays or other reasons, please allow sufficient time
+   for delivery.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   We offer Express services for certain
+   items, please check the "Shipping and Payments" section on the
+   listing for details.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal">
+   <span style="color:white;mso-themecolor:background1">
+   <o:p>&nbsp;</o:p>
+   </span>
+   </p>
+   </td>
+   </tr>
+   <tr style="mso-yfti-irow:1;height:31.0pt">
+   <td width="350" valign="top" style="width:262.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+   height:31.0pt">
+   <h3 style="margin-top:0cm;mso-outline-level:3">
+   <span style="font-size:12.0pt;
+   font-family:&quot;Arial&quot;,sans-serif;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt">
+   Payment
+   <o:p></o:p>
+   </span>
+   </h3>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal;mso-outline-level:
+   3">
+   <b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt">_________________________________________</span></b>
+   <b>
+   <span style="font-size:22.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+   &quot;Times New Roman&quot;;color:white;mso-themecolor:background1;letter-spacing:-.75pt">
+   <o:p></o:p>
+   </span>
+   </b>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l4 level1 lfo3;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   We accept Paypal and Bank Deposits
+   for sales in Australia.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l4 level1 lfo3;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   Please include your ebay ID and item
+   number as references if you pay using Bank Deposits. Failure to do so we will
+   DELAY the order/shipping process significantly as we will NOT be able to
+   match your payment to your purchases.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l4 level1 lfo3;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   We do NOT accept cheques, postal
+   order, money order or Cash On Delivery.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l4 level1 lfo3;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   Unpaid items will be reported to eBay
+   and a strike will be placed on your account under eBay's Unpaid Item Process.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal">
+   <span style="color:white;mso-themecolor:background1">
+   <o:p>&nbsp;</o:p>
+   </span>
+   </p>
+   </td>
+   <td width="350" valign="top" style="width:262.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+   height:31.0pt">
+   <h3 style="margin-top:0cm;mso-outline-level:3">
+   <span style="font-size:10.0pt;
+   font-family:&quot;Verdana&quot;,sans-serif;mso-bidi-font-family:Arial;color:white;
+   mso-themecolor:background1;letter-spacing:-.75pt">
+   Returns &amp; Warranty
+   <o:p></o:p>
+   </span>
+   </h3>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal;mso-outline-level:
+   3">
+   <b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt">_________________________________________</span></b>
+   <b>
+   <span style="font-size:22.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+   &quot;Times New Roman&quot;;color:white;mso-themecolor:background1;letter-spacing:-.75pt">
+   <o:p></o:p>
+   </span>
+   </b>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l3 level1 lfo4;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   We accept item returns if item is not
+   as described in the listing or product is covered by warranty
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l3 level1 lfo4;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   Please contact us within 7 days of
+   receiving the items if item is not as described or DOA.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l3 level1 lfo4;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   Please message us first to issue
+   returns authorisation.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l3 level1 lfo4;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   Returned items must be in acceptable
+   condition and without physical damage, except damaged in transit.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l3 level1 lfo4;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   The returned items will be inspected
+   and if faulty, it will either be replaced where possible or a refund will be
+   issued.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l3 level1 lfo4;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   Returned item will be replaced or
+   repaired. It takes approximately 1-2 weeks. We will replace or repair the
+   item depending on product availability.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l3 level1 lfo4;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   If the replacement is not available,
+   a refund of the purchase price will be issued.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l3 level1 lfo4;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   If a non-defective item is returned
+   for refund, item must be returned in its original condition and packing.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal">
+   <span style="color:white;mso-themecolor:background1">
+   <o:p>&nbsp;</o:p>
+   </span>
+   </p>
+   </td>
+   </tr>
+   <tr style="mso-yfti-irow:2;mso-yfti-lastrow:yes;height:31.0pt">
+   <td width="350" valign="top" style="width:262.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+   height:31.0pt">
+   <h3 style="margin-top:0cm;mso-outline-level:3">
+   <span style="font-size:10.0pt;
+   font-family:&quot;Verdana&quot;,sans-serif;mso-bidi-font-family:Arial;color:white;
+   mso-themecolor:background1;letter-spacing:-.75pt">
+   Feedback
+   <o:p></o:p>
+   </span>
+   </h3>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal;mso-outline-level:
+   3">
+   <b><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+   mso-fareast-font-family:&quot;Times New Roman&quot;;color:white;mso-themecolor:background1;
+   letter-spacing:-.75pt">_________________________________________</span></b>
+   <b>
+   <span style="font-size:22.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+   &quot;Times New Roman&quot;;color:white;mso-themecolor:background1;letter-spacing:-.75pt">
+   <o:p></o:p>
+   </span>
+   </b>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l2 level1 lfo5;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   We appreciate your positive feedback
+   and we will leave positive feedback immediately for you after receiving
+   yours.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l2 level1 lfo5;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   We would appreciate if you would
+   leave us positive feedback once you confirmed the item is received and in
+   good working order.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l2 level1 lfo5;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   If you are unhappy with our products
+   or services, please contact us before leaving a neutral or negative feedback.
+   We will try our utmost to resolve the issue to our mutual satisfaction.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l2 level1 lfo5;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   It would be much appreciated if you
+   can award us with "five stars" for "Detailed Seller
+   Ratings".
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-top:0cm;margin-right:3.75pt;margin-bottom:
+   0cm;margin-left:26.25pt;text-indent:-18.0pt;line-height:normal;mso-list:l2 level1 lfo5;
+   tab-stops:list 36.0pt">
+   <!--[if !supportLists]--><span style="font-size:10.0pt;
+   mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+   mso-bidi-font-family:Symbol;color:white;mso-themecolor:background1"><span style="mso-list:Ignore">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </span></span></span><!--[endif]-->
+   <span style="font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;
+   color:white;mso-themecolor:background1">
+   On the other hand, if you feel that
+   we do not achieve that level of performance, please feel free to contact us
+   as well.
+   <o:p></o:p>
+   </span>
+   </p>
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal">
+   <span style="color:white;mso-themecolor:background1">
+   <o:p>&nbsp;</o:p>
+   </span>
+   </p>
+   </td>
+   <td width="350" valign="top" style="width:262.15pt;padding:0cm 5.4pt 0cm 5.4pt;
+   height:31.0pt">
+   <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal">
+   <span style="color:white;mso-themecolor:background1">
+   <o:p>&nbsp;</o:p>
+   </span>
+   </p>
+   </td>
+   </tr>
+   </tbody>
+   </table>
+   <br>
+   </font>
